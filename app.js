@@ -30,13 +30,13 @@ if (data[2] == 'read'){
 
 }
 
-if (data[2] === 'delete'){
-    let id = data[3]
-    let oldTask = read()
-    let del = require("./del.js")
-    del(id,oldTask);
-    console.log(read());
-}
+//if (data[2] === 'delete'){
+    //let id = data[3]
+   // let oldTask = read()
+     // let del = require("./del.js")
+   // del(id,oldTask);
+  //  console.log(read());
+
  //   const del = require('./del')
   //  del(read())
 //}
